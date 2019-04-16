@@ -20,7 +20,12 @@ export default class Welcome extends Component {
           />
         </Block>
         <Block margin={[0, theme.sizes.padding * 2]}>
-          <Button gradient onPress={() => navigation.navigate('Login')}>
+          <Button
+            gradient
+            onPress={() => {
+              // navigation to Login screen
+            }}
+          >
             <Text center semibold white>
               Login
             </Text>
